@@ -1,0 +1,873 @@
+[
+    {
+      "class": "CS1030",
+      "name": "Foundations of Computer Science"
+    },
+    {
+      "class": "CS1400",
+      "name": "Introduction to Computer Programming"
+    },
+    {
+      "class": "CS1410",
+      "name": "Introduction to Object-Oriented Programming"
+    },
+    {
+      "class": "CS1420",
+      "name": "Accelerated Introduction to Object-Oriented Programming"
+    },
+    {
+      "class": "CS1960",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS2100",
+      "name": "Discrete Structures"
+    },
+    {
+      "class": "CS2420",
+      "name": "Introduction to Algorithms & Data Structures"
+    },
+    {
+      "class": "CS2950",
+      "name": "Independent Study"
+    },
+    {
+      "class": "CS3011",
+      "name": "Industry Forum"
+    },
+    {
+      "class": "CS3020",
+      "name": "Research Forum"
+    },
+    {
+      "class": "CS3100",
+      "name": "Models of Computation"
+    },
+    {
+      "class": "CS3130",
+      "name": "Engineering Probability and Statistics"
+    },
+    {
+      "class": "CS3190",
+      "name": "Foundations of Data Analysis"
+    },
+    {
+      "class": "CS3200",
+      "name": "Introduction to Scientific Computing and Data Computing"
+    },
+    {
+      "class": "CS3390",
+      "name": "Ethics in Data Science"
+    },
+    {
+      "class": "CS3500",
+      "name": "Software Practice"
+    },
+    {
+      "class": "CS3505",
+      "name": "Software Practice II"
+    },
+    {
+      "class": "CS3520",
+      "name": "Programming Language Concepts"
+    },
+    {
+      "class": "CS3540",
+      "name": "Human/Computer Interaction"
+    },
+    {
+      "class": "CS3700",
+      "name": "Fundamentals of Digital System Design"
+    },
+    {
+      "class": "CS3710",
+      "name": "Computer Design Laboratory"
+    },
+    {
+      "class": "CS3810",
+      "name": "Computer Organization"
+    },
+    {
+      "class": "CS3960",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS3991",
+      "name": "CE Junior Seminar"
+    },
+    {
+      "class": "CS3992",
+      "name": "Computer Engineering Pre-Thesis/Pre-Clinic/Pre-Project"
+    },
+    {
+      "class": "CS4000",
+      "name": "Senior Capstone Project"
+    },
+    {
+      "class": "CS4010",
+      "name": "Computer Science Internship"
+    },
+    {
+      "class": "CS4150",
+      "name": "Algorithms"
+    },
+    {
+      "class": "CS4230",
+      "name": "Parallel Programming"
+    },
+    {
+      "class": "CS4300",
+      "name": "Artificial Intelligence"
+    },
+    {
+      "class": "CS4400",
+      "name": "Computer Systems"
+    },
+    {
+      "class": "CS4440",
+      "name": "Introduction to Computer Security"
+    },
+    {
+      "class": "CS4470",
+      "name": "Compiler Principles and Techniques"
+    },
+    {
+      "class": "CS4480",
+      "name": "Computer Networks"
+    },
+    {
+      "class": "CS4500",
+      "name": "Senior Capstone Project"
+    },
+    {
+      "class": "CS4530",
+      "name": "Mobile Application Programming"
+    },
+    {
+      "class": "CS4540",
+      "name": "Web Software Architecture"
+    },
+    {
+      "class": "CS4600",
+      "name": "Introduction to Computer Graphics"
+    },
+    {
+      "class": "CS4640",
+      "name": "Image Processing Basics"
+    },
+    {
+      "class": "CS4710",
+      "name": "Computer Engineering Senior Project"
+    },
+    {
+      "class": "CS4940",
+      "name": "Undergraduate Research"
+    },
+    {
+      "class": "CS4950",
+      "name": "Independent Study"
+    },
+    {
+      "class": "CS4960",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS4961",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS4962",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS4963",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS4964",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS4970",
+      "name": "Computer Science Bachelor's Thesis"
+    },
+    {
+      "class": "CS4991",
+      "name": "Computer Engineering Senior Thesis I"
+    },
+    {
+      "class": "CS4992",
+      "name": "Computer Engineering Senior Thesis II"
+    },
+    {
+      "class": "CS4998",
+      "name": "Honors Project Thesis"
+    },
+    {
+      "class": "CS4999",
+      "name": "Computer Science Honors Thesis/Project"
+    },
+    {
+      "class": "CS5010",
+      "name": "Software Practice"
+    },
+    {
+      "class": "CS5020",
+      "name": "Software Practice II"
+    },
+    {
+      "class": "CS5040",
+      "name": "Teaching Introductory Computer Science"
+    },
+    {
+      "class": "CS5100",
+      "name": "Theory of Computation"
+    },
+    {
+      "class": "CS5110",
+      "name": "Software Verification and Analysis"
+    },
+    {
+      "class": "CS5140",
+      "name": "Data Mining"
+    },
+    {
+      "class": "CS5150",
+      "name": "Advanced Algorithms"
+    },
+    {
+      "class": "CS5310",
+      "name": "Robotics"
+    },
+    {
+      "class": "CS5320",
+      "name": "Computer Vision"
+    },
+    {
+      "class": "CS5340",
+      "name": "Natural Language Processing"
+    },
+    {
+      "class": "CS5350",
+      "name": "Machine Learning"
+    },
+    {
+      "class": "CS5353",
+      "name": "Deep Learning"
+    },
+    {
+      "class": "CS5360",
+      "name": "Virtual Reality"
+    },
+    {
+      "class": "CS5460",
+      "name": "Operating Systems"
+    },
+    {
+      "class": "CS5490",
+      "name": "Network Security"
+    },
+    {
+      "class": "CS5530",
+      "name": "Database Systems"
+    },
+    {
+      "class": "CS5550",
+      "name": "Introduction to Information Retrieval"
+    },
+    {
+      "class": "CS5610",
+      "name": "Interactive Computer Graphics"
+    },
+    {
+      "class": "CS5630",
+      "name": "Visualization for Data Science"
+    },
+    {
+      "class": "CS5635",
+      "name": "Visualization for Scientific Data"
+    },
+    {
+      "class": "CS5640",
+      "name": "Introduction to Digital Image Processing"
+    },
+    {
+      "class": "CS5710",
+      "name": "Digital VLSI Design"
+    },
+    {
+      "class": "CS5720",
+      "name": "Fundamentals of Analog Integrated Circuit Design"
+    },
+    {
+      "class": "CS5740",
+      "name": "Computer-Aided Design of Digital Circuits"
+    },
+    {
+      "class": "CS5745",
+      "name": "Testing and Verification of Digital Circuits"
+    },
+    {
+      "class": "CS5750",
+      "name": "Synthesis and Verification of Asynchronous VLSI Systems"
+    },
+    {
+      "class": "CS5780",
+      "name": "Embedded System Design"
+    },
+    {
+      "class": "CS5789",
+      "name": "Embedded Systems and Kinetic Art"
+    },
+    {
+      "class": "CS5950",
+      "name": "Independent Study"
+    },
+    {
+      "class": "CS5955",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5956",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5957",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5958",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5959",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5960",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5961",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5962",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5963",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5964",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5965",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5966",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5967",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5968",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS5969",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6010",
+      "name": "MSD: Introduction to Software Development"
+    },
+    {
+      "class": "CS6011",
+      "name": "MSD: Computer Programming"
+    },
+    {
+      "class": "CS6012",
+      "name": "MSD: Data Structures and Algorithms"
+    },
+    {
+      "class": "CS6013",
+      "name": "MSD: Computer Systems"
+    },
+    {
+      "class": "CS6014",
+      "name": "MSD: Computer Networks and Security"
+    },
+    {
+      "class": "CS6015",
+      "name": "MSD: Software Engineering"
+    },
+    {
+      "class": "CS6016",
+      "name": "MSD: Database Systems and Applications"
+    },
+    {
+      "class": "CS6017",
+      "name": "MSD: Data Analytics and Visualization"
+    },
+    {
+      "class": "CS6018",
+      "name": "MSD: Application Systems Design"
+    },
+    {
+      "class": "CS6019",
+      "name": "MSD Project"
+    },
+    {
+      "class": "CS6020",
+      "name": "Conducting, Publishing, and Presenting Early-Career Research"
+    },
+    {
+      "class": "CS6100",
+      "name": "Theory of Computation"
+    },
+    {
+      "class": "CS6110",
+      "name": "Software Verification and Analysis"
+    },
+    {
+      "class": "CS6140",
+      "name": "Data Mining"
+    },
+    {
+      "class": "CS6150",
+      "name": "Graduate Algorithms"
+    },
+    {
+      "class": "CS6160",
+      "name": "Computational Geometry"
+    },
+    {
+      "class": "CS6170",
+      "name": "Computational Topology"
+    },
+    {
+      "class": "CS6180",
+      "name": "Clustering"
+    },
+    {
+      "class": "CS6190",
+      "name": "Probabilistic Machine Learning"
+    },
+    {
+      "class": "CS6210",
+      "name": "Scientific and Data Computing I"
+    },
+    {
+      "class": "CS6220",
+      "name": "Scientific and Data Computing II"
+    },
+    {
+      "class": "CS6230",
+      "name": "Parallel Computing and High Performance Computing"
+    },
+    {
+      "class": "CS6235",
+      "name": "Parallel Programming for Many-Core Architectures"
+    },
+    {
+      "class": "CS6300",
+      "name": "Artificial Intelligence"
+    },
+    {
+      "class": "CS6310",
+      "name": "Robotics"
+    },
+    {
+      "class": "CS6320",
+      "name": "Computer Vision"
+    },
+    {
+      "class": "CS6330",
+      "name": "Introduction to Robot Control"
+    },
+    {
+      "class": "CS6340",
+      "name": "Natural Language Processing"
+    },
+    {
+      "class": "CS6350",
+      "name": "Machine Learning"
+    },
+    {
+      "class": "CS6353",
+      "name": "Deep Learning"
+    },
+    {
+      "class": "CS6355",
+      "name": "Structured Prediction"
+    },
+    {
+      "class": "CS6360",
+      "name": "Virtual Reality"
+    },
+    {
+      "class": "CS6370",
+      "name": "Motion Planning"
+    },
+    {
+      "class": "CS6390",
+      "name": "Information Extraction from Text"
+    },
+    {
+      "class": "CS6450",
+      "name": "Distributed Systems"
+    },
+    {
+      "class": "CS6460",
+      "name": "Operating Systems"
+    },
+    {
+      "class": "CS6465",
+      "name": "Advanced Operating System Implementation"
+    },
+    {
+      "class": "CS6475",
+      "name": "Advanced Compilers"
+    },
+    {
+      "class": "CS6480",
+      "name": "Advanced Computer Networks"
+    },
+    {
+      "class": "CS6490",
+      "name": "Network Security"
+    },
+    {
+      "class": "CS6520",
+      "name": "Programming Language Concepts"
+    },
+    {
+      "class": "CS6525",
+      "name": "Functional Programming"
+    },
+    {
+      "class": "CS6530",
+      "name": "Advanced Database Systems"
+    },
+    {
+      "class": "CS6540",
+      "name": "Human/Computer Interaction"
+    },
+    {
+      "class": "CS6550",
+      "name": "Introduction to Information Retrieval"
+    },
+    {
+      "class": "CS6600",
+      "name": "Mathematical Foundations of Computer Graphics and Visualization"
+    },
+    {
+      "class": "CS6610",
+      "name": "Interactive Computer Graphics"
+    },
+    {
+      "class": "CS6620",
+      "name": "Ray Tracing for Graphics"
+    },
+    {
+      "class": "CS6630",
+      "name": "Visualization for Data Science"
+    },
+    {
+      "class": "CS6635",
+      "name": "Visualization for Scientific Data"
+    },
+    {
+      "class": "CS6640",
+      "name": "Introduction to Digital Image Processing"
+    },
+    {
+      "class": "CS6650",
+      "name": "Visual Perception from a Computer Graphics and Visualization Perspective"
+    },
+    {
+      "class": "CS6660",
+      "name": "Physics-based Animation"
+    },
+    {
+      "class": "CS6670",
+      "name": "Computer-Aided Geometric Design I"
+    },
+    {
+      "class": "CS6710",
+      "name": "Digital VLSI Design"
+    },
+    {
+      "class": "CS6712",
+      "name": "Digital IC Projects Testing"
+    },
+    {
+      "class": "CS6720",
+      "name": "Fundamentals of Analog Integrated Circuit Design"
+    },
+    {
+      "class": "CS6722",
+      "name": "Analog IC Projects Testing"
+    },
+    {
+      "class": "CS6740",
+      "name": "Computer-Aided Design of Digital Circuits"
+    },
+    {
+      "class": "CS6745",
+      "name": "Testing and Verification of Digital Circuits"
+    },
+    {
+      "class": "CS6750",
+      "name": "Synthesis and Verification of Asynchronous VLSI Systems"
+    },
+    {
+      "class": "CS6760",
+      "name": "Modeling and Analysis of Biological Networks"
+    },
+    {
+      "class": "CS6770",
+      "name": "Advanced Digital VLSI Systems Design"
+    },
+    {
+      "class": "CS6780",
+      "name": "Embedded System Design"
+    },
+    {
+      "class": "CS6800",
+      "name": "MSD Capstone Internship"
+    },
+    {
+      "class": "CS6810",
+      "name": "Computer Architecture"
+    },
+    {
+      "class": "CS6945",
+      "name": "Graduate Internship"
+    },
+    {
+      "class": "CS6950",
+      "name": "Independent Study"
+    },
+    {
+      "class": "CS6951",
+      "name": "Teaching Mentorship"
+    },
+    {
+      "class": "CS6955",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6956",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6957",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6958",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6959",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6960",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6961",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6962",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6963",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6964",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6965",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6966",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6967",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6968",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6969",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS6970",
+      "name": "Master's Thesis Research"
+    },
+    {
+      "class": "CS6980",
+      "name": "Faculty Consultation: Master's"
+    },
+    {
+      "class": "CS7310",
+      "name": "Robot Mobility and Manipulation"
+    },
+    {
+      "class": "CS7320",
+      "name": "System Identification for Robotics"
+    },
+    {
+      "class": "CS7520",
+      "name": "Programming Language Semantics"
+    },
+    {
+      "class": "CS7640",
+      "name": "Advanced Image Processing"
+    },
+    {
+      "class": "CS7710",
+      "name": " Neuromorphic Architectures"
+    },
+    {
+      "class": "CS7810",
+      "name": "Advanced Computer Architecture"
+    },
+    {
+      "class": "CS7930",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7931",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7932",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7933",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7934",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7935",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7936",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7937",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7938",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7939",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7940",
+      "name": "Seminar"
+    },
+    {
+      "class": "CS7941",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7942",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7943",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7944",
+      "name": "Advanced Seminar"
+    },
+    {
+      "class": "CS7950",
+      "name": "Independent Study"
+    },
+    {
+      "class": "CS7960",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS7961",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS7962",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS7963",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS7964",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS7965",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS7966",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS7967",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS7968",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS7969",
+      "name": "Special Topics"
+    },
+    {
+      "class": "CS7970",
+      "name": "Ph.D. Dissertation Research"
+    },
+    {
+      "class": "CS7980",
+      "name": "Faculty Consultation: Ph.D."
+    },
+    {
+      "class": "CS7990",
+      "name": "Continuing Registration: Ph.D."
+    }
+  ]
+  
+  
+  
