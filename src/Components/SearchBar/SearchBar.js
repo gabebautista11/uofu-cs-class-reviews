@@ -1,26 +1,36 @@
 import { useEffect, useState } from "react";
+import "./SearchBar.css";
 let classList = require("../../ClassData/classes.json");
 
 const SearchBar = () => {
+  const classListParsed = classList.map((csClass) => (
+    <option key={csClass.class}>{csClass.class}</option>
+  ));
   const [searchValue, setSearchValue] = useState("");
-  useEffect(() => {}, []);
+  useEffect(() => {
+    console.log(classList);
+  }, []);
 
-  let autoComplete = (e) => {
+  let updateValue = (e) => {
     setSearchValue(e.target.value);
-    console.log(searchValue);
   };
 
   return (
-    <label>
-      Class:
-      <input
-        className="class-search"
-        type="search"
-        value={searchValue}
-        onChange={autoComplete}
-        name="class-search"
-      />
-    </label>
+    <div className="search-bar">
+      <label className="search-bar-label">
+        Class:
+        <input
+          className="class-search-input"
+          type="text"
+          value={searchValue}
+          onChange={updateValue}
+          name="class-search"
+          list="class-list"
+          placeholder="Class"
+        />
+        <datalist id="class-list">{classListParsed}</datalist>
+      </label>
+    </div>
   );
 };
 
