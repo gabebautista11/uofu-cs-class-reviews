@@ -16,26 +16,25 @@ const SearchBar = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     navigation(`/ViewReviews/${searchValue}`);
+    setSearchValue("");
   };
 
   return (
     <div className="search-bar">
       <form className="search-bar-form" onSubmit={handleSubmit}>
-        <label className="search-bar-label">
-          Class:
-          <input
-            className="class-search-input"
-            type="text"
-            value={searchValue}
-            onChange={(e) => setSearchValue(e.target.value)}
-            name="class-search"
-            list="class-list"
-            placeholder="Class"
-          />
-          <datalist id="class-list">{classListParsed}</datalist>
-        </label>
+        <label className="search-bar-label">class</label>
+        <input
+          className="class-search-input"
+          type="text"
+          value={searchValue}
+          onChange={(e) => setSearchValue(e.target.value)}
+          name="class-search"
+          list="class-list"
+          placeholder="Class"
+        />
+        <datalist id="class-list">{classListParsed}</datalist>
         <label className="search-label">Search:</label>
-        <input type="submit" />
+        <input type="submit" className="submit-button" />
       </form>
     </div>
   );

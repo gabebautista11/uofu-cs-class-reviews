@@ -1,7 +1,18 @@
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-
-const ViewReviewsPage = (props) => {
+import SearchBar from "../../Components/SearchBar/SearchBar";
+import getReviews from "../../FirebaseData/QueryFirestore";
+import "./ViewReviewsPage.css";
+const ViewReviewsPage = () => {
   const { className } = useParams();
-  return <h2>Review Page {className} </h2>;
+  useEffect(() => {
+    getReviews(className);
+  }, [className]);
+  return (
+    <div className="view-reviews-page">
+      <SearchBar />
+      <h1 className="page-title">{className} Reviews</h1>
+    </div>
+  );
 };
 export default ViewReviewsPage;
