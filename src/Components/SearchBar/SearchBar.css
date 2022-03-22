@@ -9,7 +9,9 @@
 .search-bar-form {
   margin: auto;
 }
-
+.inv-labels {
+  display: none;
+}
 .class-search-input {
   font-size: 26px;
 }
@@ -21,4 +23,8 @@
 .search-label,
 .search-bar-label {
   display: none;
+}
+
+.submit-button-icon {
+  color: var(--header-color);
 }

@@ -1,0 +1,24 @@
+.review-component {
+  border: solid 5px #333333;
+  border-radius: 10px;
+  margin: auto;
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.rating
+,.professor {
+  margin: auto;
+}
+.professor {
+  margin: auto;
+}
+
+.review {
+  margin: auto;
+}
+
+.review-star {
+  color: yellow;
+}

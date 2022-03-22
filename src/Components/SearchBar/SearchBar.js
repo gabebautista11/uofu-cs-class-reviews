@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 import "./SearchBar.css";
 let classList = require("../../ClassData/classes.json");
@@ -36,7 +38,9 @@ const SearchBar = () => {
         <datalist id="class-list">{classListParsed}</datalist>
 
         <label className="inv-labels">Search:</label>
-        <input type="submit" />
+        <button type="submit" className="submit-button">
+          <FontAwesomeIcon icon={faMagnifyingGlass} className="submit-button-icon"/>
+        </button>
       </form>
     </div>
   );
