@@ -2,7 +2,6 @@ import "./Review.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 const Review = (props) => {
-  console.log(props);
   return (
     <div className="review-component">
       <p className="rating">

@@ -1,8 +1,11 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import SearchBar from "../../Components/SearchBar/SearchBar";
 import "./WriteReviewPage.css";
+import { addAReview } from "../../FirebaseData/WriteToFirestore";
+
 const WriteReviewPage = () => {
+  let navigation = useNavigate();
   const { className } = useParams();
   const [rating, setRating] = useState(1);
   const [professor, setProfessor] = useState("");
@@ -22,6 +25,8 @@ const WriteReviewPage = () => {
   const submitForm = (e) => {
     e.preventDefault();
     console.log("submitted");
+    addAReview(className, rating, professor, review);
+    navigation(`/ViewReviews/${className}`);
   };
   return (
     <div className="WriteReviewPage">
