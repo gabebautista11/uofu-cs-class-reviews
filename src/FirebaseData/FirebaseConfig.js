@@ -7,7 +7,7 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIRESTOREAPIKEY,
+  apiKey: "AIzaSyDhoPoznVoetIunVvhuV80aYLXIHnQ_iho",
   authDomain: "cs-class-review.firebaseapp.com",
   projectId: "cs-class-review",
   storageBucket: "cs-class-review.appspot.com",
@@ -20,4 +20,8 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 //const analytics = getAnalytics(app);
 
+<<<<<<< HEAD
 export { app };
+=======
+export default app;
+>>>>>>> 5295bf36cf3422b3f189089c5d3f14d9b639735d

@@ -1,0 +1,8 @@
+.App {
+  --background-color: #262626;
+  --header-color: #1a1a1a;
+  --black: #000000;
+  --grey: #333333;
+  --light-grey: #404040;
+  background-color: var(--background-color);
+}

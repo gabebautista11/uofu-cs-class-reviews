@@ -1,8 +1,24 @@
 .search-bar {
   margin: auto;
   text-align: center;
+  background-color: var(--header-color);
+  height: 75px;
+  display: flex;
 }
 
-.inv-labels {
+.search-bar-form {
+  margin: auto;
+}
+
+.class-search-input {
+  font-size: 26px;
+}
+
+.submit-button {
+  font-size: 26px;
+}
+
+.search-label,
+.search-bar-label {
   display: none;
 }
