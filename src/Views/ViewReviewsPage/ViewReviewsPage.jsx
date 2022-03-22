@@ -4,8 +4,9 @@ import { queryDatabaseForClass } from "../../FirebaseData/QueryFirestore";
 import SearchBar from "../../Components/SearchBar/SearchBar";
 import "./ViewReviewsPage.css";
 import Review from "../../Components/Review/Review";
+import { Link } from "react-router-dom";
 
-const ViewReviewsPage = (props) => {
+const ViewReviewsPage = () => {
   const { className } = useParams();
   const [reviews, setReviews] = useState([]);
 
@@ -22,11 +23,24 @@ const ViewReviewsPage = (props) => {
   return (
     <div className="view-review-page">
       <SearchBar />
-      <h1 className="page-title">{className} </h1>
+
+      <h1 className="page-title">{className}</h1>
+      <div className="button-div">
+        <button className="write-a-review-button">
+          <Link
+            className="write-a-review-link"
+            to={`/WriteAReview/${className}`}
+          >
+            Write A Review
+          </Link>
+        </button>
+      </div>
+
+      {reviews.length === 0 && <h1 className="no-review">NO REVIEWS</h1>}
       <ul className="review-list">
         {reviews.map((review, index) => (
           <li key={index}>
-            <Review reviewProp={review}/>
+            <Review reviewProp={review} />
           </li>
         ))}
       </ul>

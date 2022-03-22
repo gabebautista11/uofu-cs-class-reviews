@@ -1,0 +1,63 @@
+.title-area {
+  text-align: center;
+}
+
+.review-form {
+  border: solid 5px #333333;
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.rating-label {
+  text-align: center;
+  display: block;
+}
+.professor-label {
+  text-align: center;
+  display: block;
+}
+.review-label {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+.rating-div {
+  margin: auto;
+  margin-top: 10px;
+}
+.professor-div {
+  margin: auto;
+  margin-top: 10px;
+}
+.review-div {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.rating-input {
+  display: block;
+  margin: auto;
+}
+
+.form-submit-input {
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.submit-div {
+  margin: auto;
+}
+
+.professor-input {
+  display: block;
+  margin: auto;
+}
+
+.review-input {
+  margin: auto;
+  display: block;
+  height: 100px;
+  width: 80%;
+}

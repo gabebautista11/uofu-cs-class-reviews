@@ -10,3 +10,21 @@
   padding: 0px;
   list-style: none;
 }
+
+.no-review {
+  text-align: center;
+}
+
+.write-a-review-link {
+  text-decoration: none;
+  color: var(--grey);
+}
+.write-a-review-button {
+  margin: auto;
+  text-align: center;
+}
+
+.button-div {
+  display: flex;
+  margin: auto;
+}

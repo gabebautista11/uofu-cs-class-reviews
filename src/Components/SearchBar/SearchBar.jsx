@@ -12,7 +12,7 @@ const SearchBar = () => {
   ));
   const [searchValue, setSearchValue] = useState("");
   useEffect(() => {
-    console.log(classList);
+    //console.log(classList);
   }, []);
 
   const handleSubmit = (event) => {
