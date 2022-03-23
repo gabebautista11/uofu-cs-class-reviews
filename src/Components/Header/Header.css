@@ -1,0 +1,13 @@
+.header {
+  background-color: var(--header-color);
+  margin: auto;
+  display: flex;
+}
+
+.logo {
+  margin: auto;
+}
+.sign-in-button {
+  font-size: 26px;
+  margin: auto;
+}

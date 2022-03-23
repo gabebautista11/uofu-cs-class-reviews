@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState } from "react";
-import SearchBar from "../../Components/SearchBar/SearchBar";
 import "./WriteReviewPage.css";
+import Header from "../../Components/Header/Header";
 import { addAReview } from "../../FirebaseData/WriteToFirestore";
 
 const WriteReviewPage = () => {
@@ -30,7 +30,7 @@ const WriteReviewPage = () => {
   };
   return (
     <div className="WriteReviewPage">
-      <SearchBar />
+      <Header />
       <h1 className="title-area">{`Write A Review for ${className}`}</h1>
       <form className="review-form" onSubmit={submitForm}>
         <div className="rating-div">

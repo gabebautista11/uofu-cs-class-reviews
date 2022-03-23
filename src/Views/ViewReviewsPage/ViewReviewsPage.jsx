@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { queryDatabaseForClass } from "../../FirebaseData/QueryFirestore";
-import SearchBar from "../../Components/SearchBar/SearchBar";
+import Header from "../../Components/Header/Header";
 import "./ViewReviewsPage.css";
 import Review from "../../Components/Review/Review";
 import { Link } from "react-router-dom";
@@ -22,7 +22,7 @@ const ViewReviewsPage = () => {
 
   return (
     <div className="view-review-page">
-      <SearchBar />
+      <Header />
 
       <h1 className="page-title">{className}</h1>
       <div className="button-div">
