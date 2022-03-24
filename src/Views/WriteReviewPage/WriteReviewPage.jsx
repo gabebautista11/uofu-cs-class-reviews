@@ -3,8 +3,17 @@ import { useState } from "react";
 import "./WriteReviewPage.css";
 import Header from "../../Components/Header/Header";
 import { addAReview } from "../../FirebaseData/WriteToFirestore";
+import { useEffect } from "react";
+import { getAuth } from "firebase/auth";
+import { loginWithGoogle } from "../../FirebaseData/GoogleAuth";
 
 const WriteReviewPage = () => {
+  useEffect(() => {
+    if (getAuth().currentUser == null) {
+      loginWithGoogle();
+    }
+  });
+
   let navigation = useNavigate();
   const { className } = useParams();
   const [rating, setRating] = useState(1);
