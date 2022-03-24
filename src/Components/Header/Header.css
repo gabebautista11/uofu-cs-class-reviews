@@ -11,3 +11,19 @@
   font-size: 26px;
   margin: auto;
 }
+
+.home-page-link {
+  all: unset;
+  margin: auto;
+}
+
+.home-page-link :hover {
+  cursor: pointer;
+}
+
+.info-section {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
