@@ -61,3 +61,7 @@
   height: 100px;
   width: 80%;
 }
+
+.login-prompt {
+  text-align: center;
+}

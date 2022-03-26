@@ -3,17 +3,10 @@ import { useState } from "react";
 import "./WriteReviewPage.css";
 import Header from "../../Components/Header/Header";
 import { addAReview } from "../../FirebaseData/WriteToFirestore";
-import { useEffect } from "react";
-import { getAuth } from "firebase/auth";
-import { loginWithGoogle } from "../../FirebaseData/GoogleAuth";
+import { useSelector } from "react-redux";
 
 const WriteReviewPage = () => {
-  useEffect(() => {
-    if (getAuth().currentUser == null) {
-      loginWithGoogle();
-    }
-  });
-
+  const { user } = useSelector((state) => state.auth);
   let navigation = useNavigate();
   const { className } = useParams();
   const [rating, setRating] = useState(1);
@@ -40,49 +33,55 @@ const WriteReviewPage = () => {
   return (
     <div className="WriteReviewPage">
       <Header />
-      <h1 className="title-area">{`Write A Review for ${className}`}</h1>
-      <form className="review-form" onSubmit={submitForm}>
-        <div className="rating-div">
-          <label className="rating-label">
-            Rating:
-            <input
-              type="number"
-              value={rating}
-              onChange={onRatingChange}
-              max={5}
-              min={1}
-              className="rating-input"
-              required
-            />
-          </label>
+      {user != null ? (
+        <div>
+          <h1 className="title-area">{`Write A Review for ${className}`}</h1>
+          <form className="review-form" onSubmit={submitForm}>
+            <div className="rating-div">
+              <label className="rating-label">
+                Rating:
+                <input
+                  type="number"
+                  value={rating}
+                  onChange={onRatingChange}
+                  max={5}
+                  min={1}
+                  className="rating-input"
+                  required
+                />
+              </label>
+            </div>
+            <div className="professor-div">
+              <label className="professor-label">
+                Professor:
+                <input
+                  type="text"
+                  value={professor}
+                  onChange={onChangeProfessor}
+                  className="professor-input"
+                  required
+                />
+              </label>
+            </div>
+            <div className="review-div">
+              <label className="review-label">
+                Review:
+                <textarea
+                  onChange={onChangeReview}
+                  value={review}
+                  className="review-input"
+                  required
+                />
+              </label>
+            </div>
+            <div className="submit-div">
+              <input className="form-submit-input" type="submit" />
+            </div>
+          </form>
         </div>
-        <div className="professor-div">
-          <label className="professor-label">
-            Professor:
-            <input
-              type="text"
-              value={professor}
-              onChange={onChangeProfessor}
-              className="professor-input"
-              required
-            />
-          </label>
-        </div>
-        <div className="review-div">
-          <label className="review-label">
-            Review:
-            <textarea
-              onChange={onChangeReview}
-              value={review}
-              className="review-input"
-              required
-            />
-          </label>
-        </div>
-        <div className="submit-div">
-          <input className="form-submit-input" type="submit" />
-        </div>
-      </form>
+      ) : (
+        <h1 className="login-prompt">Please login to write a review</h1>
+      )}
     </div>
   );
 };

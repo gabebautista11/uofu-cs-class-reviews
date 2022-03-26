@@ -2,22 +2,24 @@ import "./Header.css";
 import SearchBar from "../../Components/SearchBar/SearchBar";
 import { loginWithGoogle, logout } from "../../FirebaseData/GoogleAuth";
 import { getAuth } from "firebase/auth";
-import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { setUser } from "../../redux/auth";
 
 const Header = () => {
-  const [currentUser, setCurrentUser] = useState(getAuth().currentUser);
+  const { user } = useSelector((state) => state.auth);
+  const dispatch = useDispatch();
+
   const signInClicked = () => {
-    console.log("sign in clciked");
+    console.log("sign in clicked");
     loginWithGoogle().then(() => {
-      setCurrentUser(getAuth().currentUser);
+      dispatch(setUser(getAuth().currentUser));
     });
   };
 
   const logoutClicked = () => {
-    console.log("sign out clicked");
     logout().then(() => {
-      setCurrentUser(getAuth().currentUser);
+      dispatch(setUser(getAuth().currentUser));
     });
   };
   return (
@@ -26,7 +28,7 @@ const Header = () => {
         <h1 className="logo">csReviews</h1>
       </Link>
       <SearchBar />
-      {currentUser == null ? (
+      {user == null ? (
         <button className="sign-in-button" onClick={() => signInClicked()}>
           Sign In
         </button>
