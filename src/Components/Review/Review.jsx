@@ -1,7 +1,6 @@
 import "./Review.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { faR } from "@fortawesome/free-solid-svg-icons";
 const Review = (props) => {
   const displayStars = () => {
     let arrayOfStars = [];
@@ -9,9 +8,9 @@ const Review = (props) => {
       arrayOfStars.push(
         <FontAwesomeIcon icon={faStar} className="review-star" key={i} />
       );
-      for (let i = props.reviewProp.rating; i < 5; i++) {
-        arrayOfStars.push(<FontAwesomeIcon icon={faStar} key={i} />);
-      }
+      // for (let i = props.reviewProp.rating; i < 5; i++) {
+      //   arrayOfStars.push(<FontAwesomeIcon icon={faStar} key={i} />);
+      // }
     }
     return arrayOfStars;
   };
