@@ -16,7 +16,7 @@
   display: flex;
   grid-column-start: 3;
   grid-column-end: 4;
-  justify-content: end;
+  justify-content: flex-end;
   min-width: 200px;
 }
 .sign-in-button {
@@ -31,7 +31,7 @@
   display: flex;
   grid-column-start: 1;
   grid-column-end: 2;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .home-page-link {
