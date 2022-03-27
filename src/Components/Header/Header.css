@@ -1,20 +1,49 @@
 .header {
   background-color: var(--header-color);
   margin: auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
 }
 
 .logo {
   margin: auto;
 }
+
+.sign-in-button-div {
+  display: flex;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  justify-content: end;
+  min-width: 200px;
+}
 .sign-in-button {
   font-size: 26px;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+
+.logo-div {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  justify-content: start;
 }
 
 .home-page-link {
   all: unset;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+
+.search-bar {
+  display: flex;
   margin: auto;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .home-page-link :hover {

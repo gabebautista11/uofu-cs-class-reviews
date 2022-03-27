@@ -39,7 +39,10 @@ const SearchBar = () => {
 
         <label className="inv-labels">Search:</label>
         <button type="submit" className="submit-button">
-          <FontAwesomeIcon icon={faMagnifyingGlass} className="submit-button-icon"/>
+          <FontAwesomeIcon
+            icon={faMagnifyingGlass}
+            className="submit-button-icon"
+          />
         </button>
       </form>
     </div>

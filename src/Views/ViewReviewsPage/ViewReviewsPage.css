@@ -29,3 +29,8 @@
   display: flex;
   margin: auto;
 }
+
+.fetching-data {
+  margin: auto;
+  text-align: center;
+}

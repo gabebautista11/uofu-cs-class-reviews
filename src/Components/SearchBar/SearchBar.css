@@ -1,12 +1,12 @@
 .search-bar {
-  margin: auto;
   text-align: center;
   background-color: var(--header-color);
   height: 75px;
-  display: flex;
+  margin: auto;
 }
 
 .search-bar-form {
+  display: flex;
   margin: auto;
 }
 .inv-labels {

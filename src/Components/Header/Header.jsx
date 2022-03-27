@@ -24,19 +24,23 @@ const Header = () => {
   };
   return (
     <div className="header">
-      <Link to={"/"} className="home-page-link">
-        <h1 className="logo">csReviews</h1>
-      </Link>
-      <SearchBar />
-      {user == null ? (
-        <button className="sign-in-button" onClick={() => signInClicked()}>
-          Sign In
-        </button>
-      ) : (
-        <button className="sign-in-button" onClick={() => logoutClicked()}>
-          Sign Out
-        </button>
-      )}
+      <div className="logo-div">
+        <Link to={"/"} className="home-page-link">
+          <h1 className="logo">csReviews</h1>
+        </Link>
+      </div>
+      <SearchBar className="search-bar" />
+      <div className="sign-in-button-div">
+        {user == null ? (
+          <button className="sign-in-button" onClick={() => signInClicked()}>
+            Sign In
+          </button>
+        ) : (
+          <button className="sign-in-button" onClick={() => logoutClicked()}>
+            Sign Out
+          </button>
+        )}
+      </div>
     </div>
   );
 };
