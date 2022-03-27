@@ -3,6 +3,8 @@
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
 .review-list {
@@ -20,17 +22,30 @@
   color: var(--grey);
 }
 .write-a-review-button {
-  margin: auto;
   text-align: center;
-  margin-bottom: 10px;
+  font-size: 26px;
+  border-radius: 5px;
 }
 
 .button-div {
-  display: flex;
   margin: auto;
+}
+
+.button-flex {
+  display: flex;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  align-items: center;
+  vertical-align: center;
 }
 
 .fetching-data {
   margin: auto;
   text-align: center;
+}
+
+.title-flex-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-bottom: solid 5px;
 }

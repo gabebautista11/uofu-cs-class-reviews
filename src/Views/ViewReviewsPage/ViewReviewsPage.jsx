@@ -30,16 +30,20 @@ const ViewReviewsPage = () => {
   return (
     <div className="view-review-page">
       <Header />
-      <h1 className="page-title">{className}</h1>
-      <div className="button-div">
-        <button className="write-a-review-button">
-          <Link
-            className="write-a-review-link"
-            to={`/WriteAReview/${className}`}
-          >
-            Write A Review
-          </Link>
-        </button>
+      <div className="title-flex-div">
+        <h1 className="page-title">{className}</h1>
+        <div className="button-flex">
+          <div className="button-div">
+            <button className="write-a-review-button">
+              <Link
+                className="write-a-review-link"
+                to={`/WriteAReview/${className}`}
+              >
+                Write A Review
+              </Link>
+            </button>
+          </div>
+        </div>
       </div>
 
       {loading ? waitingForReviews() : numOfReviews === 0 && noReviews()}
