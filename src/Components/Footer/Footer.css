@@ -1,0 +1,23 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--header-color);
+  width: 100%;
+  height: 50px;
+}
+
+.github-link {
+  all: unset;
+  cursor: pointer;
+  margin: auto;
+  border-bottom: 3px solid;
+}
+
+.github-link-div {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  width: 100%;
+  height: 100%;
+}

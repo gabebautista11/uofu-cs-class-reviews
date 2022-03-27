@@ -24,7 +24,8 @@ const HomePage = () => {
           <p>
             Even though logging in is required to post a review. I decieded to
             make the reviews anonymous. On the other hand I still can see who
-            wrote the review so please keep it mature.{" "}
+            wrote the review so please keep it mature. <br /> <br />
+            Not Affliated with The University of Utah
           </p>
         </div>
       </div>
