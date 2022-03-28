@@ -4,7 +4,7 @@ import Header from "../../Components/Header/Header";
 const HomePage = () => {
   return (
     <div className="HomePage">
-      <Header />
+      <Header className="header"/>
       <h1 className="title">CS Class Reviews</h1>
       <div className="info-section">
         <p>
