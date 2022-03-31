@@ -1,7 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import "./WriteReviewPage.css";
-import Header from "../../Components/Header/Header";
 import { addAReview } from "../../FirebaseData/WriteToFirestore";
 import { useSelector } from "react-redux";
 
@@ -32,7 +31,6 @@ const WriteReviewPage = () => {
   };
   return (
     <div className="WriteReviewPage">
-      <Header />
       {user != null ? (
         <div>
           <h1 className="title-area">{`Write A Review for ${className}`}</h1>

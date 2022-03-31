@@ -3,6 +3,7 @@
   background-color: var(--header-color);
   height: 75px;
   margin: auto;
+  max-width: 100%;
 }
 
 .search-bar-form {
